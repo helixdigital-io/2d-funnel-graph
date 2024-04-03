@@ -1,5 +1,5 @@
 {
-	"name": "2d-funnel-graph",
+	"name": "@helixdigital-io/2d-funnel-graph",
 	"version": "0.0.0",
 	"description": "2D Funnel Graph",
 	"repository": {
@@ -8,6 +8,7 @@
 	},
 	"license": "MIT",
 	"author": {
+		"name": "Márk Magyar",
 		"email": "mark.magyar@helixdigital.io"
 	},
 	"type": "module",
