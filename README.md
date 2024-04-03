@@ -15,17 +15,15 @@
 	<img alt="💪 TypeScript: Strict" src="https://img.shields.io/badge/%F0%9F%92%AA_typescript-strict-21bb42.svg" />
 </p>
 
-## Usage
+## Installation
 
 ```shell
-npm i 2d-funnel-graph
+pnpm i @helixdigital-io/2d-funnel-graph
 ```
 
-```ts
-import { greet } from "2d-funnel-graph";
+## Usage
 
-greet("Hello, world! 💖");
-```
+Coming soon...
 
 ## Contributors
 
@@ -47,7 +45,3 @@ greet("Hello, world! 💖");
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- spellchecker: enable -->
-
-<!-- You can remove this notice if you don't want it 🙂 no worries! -->
-
-> 💙 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app).
