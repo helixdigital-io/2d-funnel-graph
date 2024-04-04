@@ -35,18 +35,21 @@ export const removeAttrs: RemoveAttrs = (element, ...attributes) => {
 	});
 };
 
-export const createSVGElement: CreateSVGElement = (
-	element,
-	container,
-	attributes,
-) => {
-	const el = document.createElementNS("http://www.w3.org/2000/svg", element);
+export const createSVGElement: CreateSVGElement = <T extends SVGElement>(
+	element: string,
+	container?: SVGElement | null,
+	attributes?: Record<string, string>,
+): T => {
+	const el = document.createElementNS(
+		"http://www.w3.org/2000/svg",
+		element,
+	) as T;
 
 	if (typeof attributes === "object") {
 		setAttrs(el, attributes);
 	}
 
-	if (typeof container !== "undefined") {
+	if (container !== undefined && container !== null) {
 		container.appendChild(el);
 	}
 
